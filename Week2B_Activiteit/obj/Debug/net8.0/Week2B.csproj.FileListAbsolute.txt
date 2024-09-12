@@ -1,0 +1,14 @@
+D:\GitHub\Week2B\bin\Debug\net8.0\Week2B.exe
+D:\GitHub\Week2B\bin\Debug\net8.0\Week2B.deps.json
+D:\GitHub\Week2B\bin\Debug\net8.0\Week2B.runtimeconfig.json
+D:\GitHub\Week2B\bin\Debug\net8.0\Week2B.dll
+D:\GitHub\Week2B\bin\Debug\net8.0\Week2B.pdb
+D:\GitHub\Week2B\obj\Debug\net8.0\Week2B.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Week2B\obj\Debug\net8.0\Week2B.AssemblyInfoInputs.cache
+D:\GitHub\Week2B\obj\Debug\net8.0\Week2B.AssemblyInfo.cs
+D:\GitHub\Week2B\obj\Debug\net8.0\Week2B.csproj.CoreCompileInputs.cache
+D:\GitHub\Week2B\obj\Debug\net8.0\Week2B.dll
+D:\GitHub\Week2B\obj\Debug\net8.0\refint\Week2B.dll
+D:\GitHub\Week2B\obj\Debug\net8.0\Week2B.pdb
+D:\GitHub\Week2B\obj\Debug\net8.0\Week2B.genruntimeconfig.cache
+D:\GitHub\Week2B\obj\Debug\net8.0\ref\Week2B.dll
