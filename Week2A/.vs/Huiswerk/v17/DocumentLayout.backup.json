@@ -3,7 +3,22 @@
   "WorkspaceRootPath": "D:\\GitHub\\Huiswerk\\Week2A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93DF980B-059A-497B-B39B-E2ACB9A8D4CE}|..\\Week2B_Sportzalen\\Week2B_Sportzalen.csproj|d:\\github\\huiswerk\\week2b_sportzalen\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C455303E-BFA7-4096-A355-6221422CD260}|..\\Week3A_Emmer\\Week3A_Emmer.csproj|d:\\github\\huiswerk\\week3a_emmer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C455303E-BFA7-4096-A355-6221422CD260}|..\\Week3A_Emmer\\Week3A_Emmer.csproj|d:\\github\\huiswerk\\week3a_emmer\\bucket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C455303E-BFA7-4096-A355-6221422CD260}|..\\Week3A_Emmer\\Week3A_Emmer.csproj|d:\\github\\huiswerk\\week3a_emmer\\liquidcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C455303E-BFA7-4096-A355-6221422CD260}|..\\Week3A_Emmer\\Week3A_Emmer.csproj|d:\\github\\huiswerk\\week3a_emmer\\oilbarrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C455303E-BFA7-4096-A355-6221422CD260}|..\\Week3A_Emmer\\Week3A_Emmer.csproj|d:\\github\\huiswerk\\week3a_emmer\\rainbarrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C455303E-BFA7-4096-A355-6221422CD260}|..\\Week3A_Emmer\\Week3A_Emmer.csproj|d:\\github\\huiswerk\\week3a_emmer\\capacities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,13 +38,78 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week2B_Sportzalen\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Week2B_Sportzalen\\Program.cs",
-              "ToolTip": "D:\\GitHub\\Huiswerk\\Week2B_Sportzalen\\Program.cs",
-              "RelativeToolTip": "..\\Week2B_Sportzalen\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Week3A_Emmer\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Program.cs",
+              "RelativeToolTip": "..\\Week3A_Emmer\\Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswDcAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T00:43:03.942Z",
+              "WhenOpened": "2024-09-17T21:16:18.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LiquidContainer.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\LiquidContainer.cs",
+              "RelativeDocumentMoniker": "..\\Week3A_Emmer\\LiquidContainer.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\LiquidContainer.cs",
+              "RelativeToolTip": "..\\Week3A_Emmer\\LiquidContainer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswBMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T17:07:40.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bucket.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Bucket.cs",
+              "RelativeDocumentMoniker": "..\\Week3A_Emmer\\Bucket.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Bucket.cs",
+              "RelativeToolTip": "..\\Week3A_Emmer\\Bucket.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA0wBsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T17:12:12.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Rainbarrel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Rainbarrel.cs",
+              "RelativeDocumentMoniker": "..\\Week3A_Emmer\\Rainbarrel.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Rainbarrel.cs",
+              "RelativeToolTip": "..\\Week3A_Emmer\\Rainbarrel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T17:12:39.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Oilbarrel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Oilbarrel.cs",
+              "RelativeDocumentMoniker": "..\\Week3A_Emmer\\Oilbarrel.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Oilbarrel.cs",
+              "RelativeToolTip": "..\\Week3A_Emmer\\Oilbarrel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T17:13:05.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Capacities.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Capacities.cs",
+              "RelativeDocumentMoniker": "..\\Week3A_Emmer\\Capacities.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Capacities.cs",
+              "RelativeToolTip": "..\\Week3A_Emmer\\Capacities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T20:45:02.959Z",
               "EditorCaption": ""
             }
           ]
