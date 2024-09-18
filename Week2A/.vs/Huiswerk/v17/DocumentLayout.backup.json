@@ -3,22 +3,22 @@
   "WorkspaceRootPath": "D:\\GitHub\\Huiswerk\\Week2A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C455303E-BFA7-4096-A355-6221422CD260}|..\\Week3A_Emmer\\Week3A_Emmer.csproj|d:\\github\\huiswerk\\week3a_emmer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73E7FC45-EE6E-4ADC-AE99-6EF9DFCD597A}|..\\Week3A_Appels_en_Peren\\Week3A_Appels_en_Peren.csproj|d:\\github\\huiswerk\\week3a_appels_en_peren\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C455303E-BFA7-4096-A355-6221422CD260}|..\\Week3A_Emmer\\Week3A_Emmer.csproj|d:\\github\\huiswerk\\week3a_emmer\\bucket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73E7FC45-EE6E-4ADC-AE99-6EF9DFCD597A}|..\\Week3A_Appels_en_Peren\\Week3A_Appels_en_Peren.csproj|d:\\github\\huiswerk\\week3a_appels_en_peren\\gewichtvergelijker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C455303E-BFA7-4096-A355-6221422CD260}|..\\Week3A_Emmer\\Week3A_Emmer.csproj|d:\\github\\huiswerk\\week3a_emmer\\liquidcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73E7FC45-EE6E-4ADC-AE99-6EF9DFCD597A}|..\\Week3A_Appels_en_Peren\\Week3A_Appels_en_Peren.csproj|d:\\github\\huiswerk\\week3a_appels_en_peren\\appel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C455303E-BFA7-4096-A355-6221422CD260}|..\\Week3A_Emmer\\Week3A_Emmer.csproj|d:\\github\\huiswerk\\week3a_emmer\\oilbarrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73E7FC45-EE6E-4ADC-AE99-6EF9DFCD597A}|..\\Week3A_Appels_en_Peren\\Week3A_Appels_en_Peren.csproj|d:\\github\\huiswerk\\week3a_appels_en_peren\\peer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C455303E-BFA7-4096-A355-6221422CD260}|..\\Week3A_Emmer\\Week3A_Emmer.csproj|d:\\github\\huiswerk\\week3a_emmer\\rainbarrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73E7FC45-EE6E-4ADC-AE99-6EF9DFCD597A}|..\\Week3A_Appels_en_Peren\\Week3A_Appels_en_Peren.csproj|d:\\github\\huiswerk\\week3a_appels_en_peren\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C455303E-BFA7-4096-A355-6221422CD260}|..\\Week3A_Emmer\\Week3A_Emmer.csproj|d:\\github\\huiswerk\\week3a_emmer\\capacities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73E7FC45-EE6E-4ADC-AE99-6EF9DFCD597A}|..\\Week3A_Appels_en_Peren\\Week3A_Appels_en_Peren.csproj|d:\\github\\huiswerk\\week3a_appels_en_peren\\kleur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,78 +38,78 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Week3A_Emmer\\Program.cs",
-              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Program.cs",
-              "RelativeToolTip": "..\\Week3A_Emmer\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAswDcAAABFAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Appels_en_Peren\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Week3A_Appels_en_Peren\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Appels_en_Peren\\Program.cs",
+              "RelativeToolTip": "..\\Week3A_Appels_en_Peren\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswCcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T21:16:18.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LiquidContainer.cs",
-              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\LiquidContainer.cs",
-              "RelativeDocumentMoniker": "..\\Week3A_Emmer\\LiquidContainer.cs",
-              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\LiquidContainer.cs",
-              "RelativeToolTip": "..\\Week3A_Emmer\\LiquidContainer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswBMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T17:07:40.752Z",
+              "WhenOpened": "2024-09-18T17:09:17.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Bucket.cs",
-              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Bucket.cs",
-              "RelativeDocumentMoniker": "..\\Week3A_Emmer\\Bucket.cs",
-              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Bucket.cs",
-              "RelativeToolTip": "..\\Week3A_Emmer\\Bucket.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAA0wBsAAAAlAAAAAAAAAA==",
+              "Title": "GewichtVergelijker.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Appels_en_Peren\\GewichtVergelijker.cs",
+              "RelativeDocumentMoniker": "..\\Week3A_Appels_en_Peren\\GewichtVergelijker.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Appels_en_Peren\\GewichtVergelijker.cs",
+              "RelativeToolTip": "..\\Week3A_Appels_en_Peren\\GewichtVergelijker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T17:12:12.876Z",
+              "WhenOpened": "2024-09-18T16:39:46.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Rainbarrel.cs",
-              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Rainbarrel.cs",
-              "RelativeDocumentMoniker": "..\\Week3A_Emmer\\Rainbarrel.cs",
-              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Rainbarrel.cs",
-              "RelativeToolTip": "..\\Week3A_Emmer\\Rainbarrel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Title": "Fruit.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Appels_en_Peren\\Fruit.cs",
+              "RelativeDocumentMoniker": "..\\Week3A_Appels_en_Peren\\Fruit.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Appels_en_Peren\\Fruit.cs",
+              "RelativeToolTip": "..\\Week3A_Appels_en_Peren\\Fruit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T17:12:39.73Z",
+              "WhenOpened": "2024-09-18T17:01:51.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Appel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Appels_en_Peren\\Appel.cs",
+              "RelativeDocumentMoniker": "..\\Week3A_Appels_en_Peren\\Appel.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Appels_en_Peren\\Appel.cs",
+              "RelativeToolTip": "..\\Week3A_Appels_en_Peren\\Appel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T16:23:47.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Oilbarrel.cs",
-              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Oilbarrel.cs",
-              "RelativeDocumentMoniker": "..\\Week3A_Emmer\\Oilbarrel.cs",
-              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Oilbarrel.cs",
-              "RelativeToolTip": "..\\Week3A_Emmer\\Oilbarrel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Title": "Peer.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Appels_en_Peren\\Peer.cs",
+              "RelativeDocumentMoniker": "..\\Week3A_Appels_en_Peren\\Peer.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Appels_en_Peren\\Peer.cs",
+              "RelativeToolTip": "..\\Week3A_Appels_en_Peren\\Peer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T17:13:05.165Z",
+              "WhenOpened": "2024-09-18T16:26:35.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Capacities.cs",
-              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Capacities.cs",
-              "RelativeDocumentMoniker": "..\\Week3A_Emmer\\Capacities.cs",
-              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Emmer\\Capacities.cs",
-              "RelativeToolTip": "..\\Week3A_Emmer\\Capacities.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Title": "Kleur.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3A_Appels_en_Peren\\Kleur.cs",
+              "RelativeDocumentMoniker": "..\\Week3A_Appels_en_Peren\\Kleur.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3A_Appels_en_Peren\\Kleur.cs",
+              "RelativeToolTip": "..\\Week3A_Appels_en_Peren\\Kleur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T20:45:02.959Z",
+              "WhenOpened": "2024-09-18T16:17:29.974Z",
               "EditorCaption": ""
             }
           ]

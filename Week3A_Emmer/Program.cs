@@ -25,10 +25,7 @@
             Console.WriteLine("Removed content of oilbarrel");
             Console.WriteLine($"Content = {oilbarrel.GetContent()}");
 
-            Console.ReadLine();
-            Console.Clear();
-
-            Console.WriteLine("Test for rainbarrel:");
+            Console.WriteLine("\nTest for rainbarrel:");
             Rainbarrel rainbarrelSmall = new Rainbarrel(Capacities.SMALL);
             Rainbarrel rainbarrelMedium = new Rainbarrel(Capacities.MEDIUM);
             Rainbarrel rainbarrelLarge = new Rainbarrel(Capacities.LARGE);
@@ -37,10 +34,7 @@
             Console.WriteLine($"Capacity of medium rainbarrel = {rainbarrelMedium.GetCapacity()}");
             Console.WriteLine($"Capacity of large rainbarrel = {rainbarrelLarge.GetCapacity()}");
 
-            Console.ReadLine();
-            Console.Clear();
-
-            Console.WriteLine("Test for bucket");
+            Console.WriteLine("\nTest for bucket");
             Bucket bucket1 = new Bucket(1300);
             Bucket bucket2 = new Bucket(2501);
             Console.WriteLine($"Capacity of bucket 1 = {bucket1.GetCapacity()}");
