@@ -1,4 +1,8 @@
-﻿namespace Week3A_Emmer
+﻿using Week3A_Emmer;
+using Week3B_Emmer.Enums;
+using Week3B_Emmer.Exceptions;
+
+namespace Week3B_Emmer.Models
 {
     internal class Rainbarrel : LiquidContainer
     {
@@ -16,8 +20,7 @@
                     Capacity = (int)Capacities.LARGE;
                     break;
                 default:
-                    Capacity = (int)Capacities.SMALL;
-                    break;
+                    throw new InvalidCapacityException(chosenCapacity);
             }
         }
     }
