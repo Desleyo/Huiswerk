@@ -2,13 +2,13 @@
 {
     internal abstract class LiquidContainer
     {
-        protected int capacity;
-        protected int content;
+        private int capacity;
+        private int content;
 
-        protected int Capacity 
+        public int Capacity 
         {
             get => capacity; 
-            set
+            protected set
             {
                 if(value >= 0)
                 {
@@ -27,16 +27,6 @@
                     content = value;
                 }
             }
-        }
-
-        public int GetCapacity()
-        {
-            return capacity;
-        }
-
-        public int GetContent()
-        {
-            return content;
         }
 
         public void Fill(int amount) 

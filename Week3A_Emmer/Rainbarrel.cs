@@ -4,7 +4,7 @@
     {
         public Rainbarrel(Capacities chosenCapacity)
         {
-            capacity = (int)chosenCapacity;
+            Capacity = (int)chosenCapacity;
         }
     }
 }
