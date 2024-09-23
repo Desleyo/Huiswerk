@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3A_Emmer", "..\Week3A_E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3A_Appels_en_Peren", "..\Week3A_Appels_en_Peren\Week3A_Appels_en_Peren.csproj", "{73E7FC45-EE6E-4ADC-AE99-6EF9DFCD597A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3B_Emmer", "..\Week3B_Emmer\Week3B_Emmer.csproj", "{D51EB476-5483-4802-B6DF-BAA7887C0A39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3B_Emmer", "..\Week3B_Emmer\Week3B_Emmer.csproj", "{D51EB476-5483-4802-B6DF-BAA7887C0A39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

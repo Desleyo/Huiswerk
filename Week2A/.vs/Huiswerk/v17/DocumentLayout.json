@@ -1,9 +1,15 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\Huiswerk\\Week2A\\",
+  "WorkspaceRootPath": "D:\\Huiswerk\\Week2A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\github\\huiswerk\\week3b_emmer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\huiswerk\\week3b_emmer\\models\\bucket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\huiswerk\\week3b_emmer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\huiswerk\\week3b_emmer\\models\\rainbarrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,7 +19,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -21,15 +27,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3B_Emmer\\Program.cs",
+              "DocumentMoniker": "D:\\Huiswerk\\Week3B_Emmer\\Program.cs",
               "RelativeDocumentMoniker": "..\\Week3B_Emmer\\Program.cs",
-              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3B_Emmer\\Program.cs",
+              "ToolTip": "D:\\Huiswerk\\Week3B_Emmer\\Program.cs",
               "RelativeToolTip": "..\\Week3B_Emmer\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAswCgAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T19:03:03.465Z",
+              "WhenOpened": "2024-09-23T11:51:32.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bucket.cs",
+              "DocumentMoniker": "D:\\Huiswerk\\Week3B_Emmer\\Models\\Bucket.cs",
+              "RelativeDocumentMoniker": "..\\Week3B_Emmer\\Models\\Bucket.cs",
+              "ToolTip": "D:\\Huiswerk\\Week3B_Emmer\\Models\\Bucket.cs",
+              "RelativeToolTip": "..\\Week3B_Emmer\\Models\\Bucket.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T11:41:37.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rainbarrel.cs",
+              "DocumentMoniker": "D:\\Huiswerk\\Week3B_Emmer\\Models\\Rainbarrel.cs",
+              "RelativeDocumentMoniker": "..\\Week3B_Emmer\\Models\\Rainbarrel.cs",
+              "ToolTip": "D:\\Huiswerk\\Week3B_Emmer\\Models\\Rainbarrel.cs",
+              "RelativeToolTip": "..\\Week3B_Emmer\\Models\\Rainbarrel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T11:53:52.602Z",
               "EditorCaption": ""
             }
           ]

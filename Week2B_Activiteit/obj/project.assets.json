@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\Huiswerk\\Week2B_Activiteit\\Week2B_Activiteit.csproj",
+      "projectUniqueName": "D:\\Huiswerk\\Week2B_Activiteit\\Week2B_Activiteit.csproj",
       "projectName": "Week2B_Activiteit",
-      "projectPath": "D:\\GitHub\\Huiswerk\\Week2B_Activiteit\\Week2B_Activiteit.csproj",
+      "projectPath": "D:\\Huiswerk\\Week2B_Activiteit\\Week2B_Activiteit.csproj",
       "packagesPath": "C:\\Users\\Desley\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\Huiswerk\\Week2B_Activiteit\\obj\\",
+      "outputPath": "D:\\Huiswerk\\Week2B_Activiteit\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Desley\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -39,7 +39,7 @@ namespace Week3A_Emmer
 
             Console.WriteLine("\nTest for bucket");
             Bucket bucket1 = new Bucket(1300);
-            Bucket bucket2 = new Bucket();
+            Bucket bucket2 = new Bucket(0);
             Console.WriteLine($"Capacity of bucket 1 = {bucket1.Capacity}");
             Console.WriteLine($"Capacity of bucket 2 = {bucket2.Capacity}");
 

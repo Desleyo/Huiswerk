@@ -14,13 +14,21 @@ namespace Week3B_Emmer.Models
 
         public Bucket(int capacity)
         {
-            if (capacity >= minCapacity && capacity <= maxCapacity)
+            try
             {
-                Capacity = capacity;
+                if (capacity >= minCapacity && capacity <= maxCapacity)
+                {
+                    Capacity = capacity;
+                }
+                else
+                {
+                    throw new InvalidCapacityException(capacity, minCapacity, maxCapacity);
+                }
             }
-            else
+            catch (InvalidCapacityException ex)
             {
-                throw new InvalidCapacityException(capacity, minCapacity, maxCapacity);
+                Console.WriteLine(ex.Message);
+                Capacity = DEFAULT_CAPACITY;
             }
         }
 
