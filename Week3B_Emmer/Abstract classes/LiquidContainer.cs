@@ -1,6 +1,6 @@
 ﻿namespace Week3A_Emmer
 {
-    internal abstract class LiquidContainer
+    public abstract class LiquidContainer
     {
         private int capacity;
         private int content;
@@ -10,10 +10,7 @@
             get => capacity; 
             protected set
             {
-                if(value >= 0)
-                {
-                    capacity = value;
-                }
+                capacity = value;
             }
         }
 

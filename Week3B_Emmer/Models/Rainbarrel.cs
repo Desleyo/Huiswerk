@@ -4,7 +4,7 @@ using Week3B_Emmer.Exceptions;
 
 namespace Week3B_Emmer.Models
 {
-    internal class Rainbarrel : LiquidContainer
+    public class Rainbarrel : LiquidContainer
     {
         public Rainbarrel(Capacities chosenCapacity)
         {

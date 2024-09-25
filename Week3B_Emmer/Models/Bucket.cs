@@ -3,12 +3,12 @@ using Week3B_Emmer.Exceptions;
 
 namespace Week3B_Emmer.Models
 {
-    internal class Bucket : LiquidContainer
+    public class Bucket : LiquidContainer
     {
-        private const int DEFAULT_CAPACITY = 12;
+        public const int MIN_CAPACITY = 10;
+        public const int MAX_CAPACITY = 2500;
+        public const int DEFAULT_CAPACITY = 12;
 
-        private int minCapacity = 10;
-        private int maxCapacity = 2500;
 
         public Bucket() : this(DEFAULT_CAPACITY) { }
 
@@ -16,13 +16,13 @@ namespace Week3B_Emmer.Models
         {
             try
             {
-                if (capacity >= minCapacity && capacity <= maxCapacity)
+                if (capacity >= MIN_CAPACITY && capacity <= MAX_CAPACITY)
                 {
                     Capacity = capacity;
                 }
                 else
                 {
-                    throw new InvalidCapacityException(capacity, minCapacity, maxCapacity);
+                    throw new InvalidCapacityException(capacity, MIN_CAPACITY, MAX_CAPACITY);
                 }
             }
             catch (InvalidCapacityException ex)
@@ -32,9 +32,9 @@ namespace Week3B_Emmer.Models
             }
         }
 
-        public void CombineBucket(Bucket bucket)
+        public void CombineBuckets(Bucket bucket)
         {
-            if (Content + bucket.Content <= maxCapacity)
+            if (Content + bucket.Content <= Capacity)
             {
                 Fill(bucket.Content);
                 bucket.Empty();

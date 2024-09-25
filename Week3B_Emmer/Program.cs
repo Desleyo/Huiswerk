@@ -10,7 +10,7 @@ namespace Week3A_Emmer
             Console.WriteLine("Test for oilbarrel:");
             Oilbarrel oilbarrel = new Oilbarrel();
             Console.WriteLine($"Capacity = {oilbarrel.Capacity}");
-            Console.WriteLine($"Content = {oilbarrel.Capacity}");
+            Console.WriteLine($"Content = {oilbarrel.Content}");
 
             oilbarrel.Fill(159);
             Console.WriteLine("Added 159 to oilbarrel content");
@@ -28,6 +28,7 @@ namespace Week3A_Emmer
             Console.WriteLine("Removed content of oilbarrel");
             Console.WriteLine($"Content = {oilbarrel.Content}");
 
+
             Console.WriteLine("\nTest for rainbarrel:");
             Rainbarrel rainbarrelSmall = new Rainbarrel(Capacities.SMALL);
             Rainbarrel rainbarrelMedium = new Rainbarrel(Capacities.MEDIUM);
@@ -37,19 +38,25 @@ namespace Week3A_Emmer
             Console.WriteLine($"Capacity of medium rainbarrel = {rainbarrelMedium.Capacity}");
             Console.WriteLine($"Capacity of large rainbarrel = {rainbarrelLarge.Capacity}");
 
+            Console.WriteLine($"Content of large rainbarrel = {rainbarrelLarge.Content}");
+            rainbarrelLarge.Content = 100;
+            Console.WriteLine("Added 100 to large rainbarrel content");
+            Console.WriteLine($"Content of large rainbarrel = {rainbarrelLarge.Content}");
+
+
             Console.WriteLine("\nTest for bucket");
-            Bucket bucket1 = new Bucket(1300);
-            Bucket bucket2 = new Bucket(0);
+            Bucket bucket1 = new Bucket(2501);
+            Bucket bucket2 = new Bucket(-1);
             Console.WriteLine($"Capacity of bucket 1 = {bucket1.Capacity}");
             Console.WriteLine($"Capacity of bucket 2 = {bucket2.Capacity}");
 
-            bucket1.Fill(10);
-            bucket2.Fill(10);
-            Console.WriteLine("Added 10 to both bucket's content");
+            bucket1.Fill(5);
+            bucket2.Fill(5);
+            Console.WriteLine("Added 5 to both bucket's content");
             Console.WriteLine($"Content of bucket 1 = {bucket1.Content}");
             Console.WriteLine($"Content of bucket 2 = {bucket2.Content}");
 
-            bucket1.CombineBucket(bucket2);
+            bucket1.CombineBuckets(bucket2);
             Console.WriteLine("Combined both buckets into bucket 1");
             Console.WriteLine($"Content of bucket 1 = {bucket1.Content}");
             Console.WriteLine($"Content of bucket 2 = {bucket2.Content}");

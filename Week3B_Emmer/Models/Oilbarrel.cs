@@ -2,9 +2,9 @@
 
 namespace Week3B_Emmer.Models
 {
-    internal class Oilbarrel : LiquidContainer
+    public class Oilbarrel : LiquidContainer
     {
-        private const int DEFAULT_CAPACITY = 159;
+        public const int DEFAULT_CAPACITY = 159;
 
         public Oilbarrel()
         {

@@ -1,15 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Huiswerk\\Week2A\\",
+  "WorkspaceRootPath": "D:\\GitHub\\Huiswerk\\Week2A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\huiswerk\\week3b_emmer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD165CAE-3EB7-4515-AD77-C1F578060CAC}|..\\Week3B_Emmer_UnitTests\\Week3B_Emmer_UnitTests.csproj|d:\\github\\huiswerk\\week3b_emmer_unittests\\rainbarrelstests\\values\\rainbarrelvaluetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\huiswerk\\week3b_emmer\\models\\rainbarrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD165CAE-3EB7-4515-AD77-C1F578060CAC}|..\\Week3B_Emmer_UnitTests\\Week3B_Emmer_UnitTests.csproj|d:\\github\\huiswerk\\week3b_emmer_unittests\\rainbarrelstests\\methods\\rainbarrelmethodtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\huiswerk\\week3b_emmer\\models\\bucket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\github\\huiswerk\\week3b_emmer\\models\\rainbarrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD165CAE-3EB7-4515-AD77-C1F578060CAC}|..\\Week3B_Emmer_UnitTests\\Week3B_Emmer_UnitTests.csproj|d:\\github\\huiswerk\\week3b_emmer_unittests\\oilbarreltests\\methods\\oilbarrelmethodtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD165CAE-3EB7-4515-AD77-C1F578060CAC}|..\\Week3B_Emmer_UnitTests\\Week3B_Emmer_UnitTests.csproj|d:\\github\\huiswerk\\week3b_emmer_unittests\\oilbarreltests\\values\\oilbarrelvaluetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\github\\huiswerk\\week3b_emmer\\models\\oilbarrel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\github\\huiswerk\\week3b_emmer\\models\\bucket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\github\\huiswerk\\week3b_emmer\\abstract classes\\liquidcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,41 +42,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Huiswerk\\Week3B_Emmer\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Week3B_Emmer\\Program.cs",
-              "ToolTip": "D:\\Huiswerk\\Week3B_Emmer\\Program.cs*",
-              "RelativeToolTip": "..\\Week3B_Emmer\\Program.cs*",
-              "ViewState": "AgIAABYAAAAAAAAAAAAswB8AAABOAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "RainbarrelMethodTests.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3B_Emmer_UnitTests\\RainbarrelsTests\\Methods\\RainbarrelMethodTests.cs",
+              "RelativeDocumentMoniker": "..\\Week3B_Emmer_UnitTests\\RainbarrelsTests\\Methods\\RainbarrelMethodTests.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3B_Emmer_UnitTests\\RainbarrelsTests\\Methods\\RainbarrelMethodTests.cs",
+              "RelativeToolTip": "..\\Week3B_Emmer_UnitTests\\RainbarrelsTests\\Methods\\RainbarrelMethodTests.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T11:51:32.687Z",
+              "WhenOpened": "2024-09-25T19:59:14.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RainbarrelValueTests.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3B_Emmer_UnitTests\\RainbarrelsTests\\Values\\RainbarrelValueTests.cs",
+              "RelativeDocumentMoniker": "..\\Week3B_Emmer_UnitTests\\RainbarrelsTests\\Values\\RainbarrelValueTests.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3B_Emmer_UnitTests\\RainbarrelsTests\\Values\\RainbarrelValueTests.cs",
+              "RelativeToolTip": "..\\Week3B_Emmer_UnitTests\\RainbarrelsTests\\Values\\RainbarrelValueTests.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwEQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T19:59:22.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OilbarrelMethodTests.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3B_Emmer_UnitTests\\OilBarrelTests\\Methods\\OilbarrelMethodTests.cs",
+              "RelativeDocumentMoniker": "..\\Week3B_Emmer_UnitTests\\OilBarrelTests\\Methods\\OilbarrelMethodTests.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3B_Emmer_UnitTests\\OilBarrelTests\\Methods\\OilbarrelMethodTests.cs",
+              "RelativeToolTip": "..\\Week3B_Emmer_UnitTests\\OilBarrelTests\\Methods\\OilbarrelMethodTests.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvzcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T19:59:44.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OilbarrelValuetests.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3B_Emmer_UnitTests\\OilBarrelTests\\Values\\OilbarrelValuetests.cs",
+              "RelativeDocumentMoniker": "..\\Week3B_Emmer_UnitTests\\OilBarrelTests\\Values\\OilbarrelValuetests.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3B_Emmer_UnitTests\\OilBarrelTests\\Values\\OilbarrelValuetests.cs",
+              "RelativeToolTip": "..\\Week3B_Emmer_UnitTests\\OilBarrelTests\\Values\\OilbarrelValuetests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T19:59:43.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LiquidContainer.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3B_Emmer\\Abstract classes\\LiquidContainer.cs",
+              "RelativeDocumentMoniker": "..\\Week3B_Emmer\\Abstract classes\\LiquidContainer.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3B_Emmer\\Abstract classes\\LiquidContainer.cs",
+              "RelativeToolTip": "..\\Week3B_Emmer\\Abstract classes\\LiquidContainer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T17:46:51.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bucket.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3B_Emmer\\Models\\Bucket.cs",
+              "RelativeDocumentMoniker": "..\\Week3B_Emmer\\Models\\Bucket.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3B_Emmer\\Models\\Bucket.cs",
+              "RelativeToolTip": "..\\Week3B_Emmer\\Models\\Bucket.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvyIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T17:46:53.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Bucket.cs",
-              "DocumentMoniker": "D:\\Huiswerk\\Week3B_Emmer\\Models\\Bucket.cs",
-              "RelativeDocumentMoniker": "..\\Week3B_Emmer\\Models\\Bucket.cs",
-              "ToolTip": "D:\\Huiswerk\\Week3B_Emmer\\Models\\Bucket.cs",
-              "RelativeToolTip": "..\\Week3B_Emmer\\Models\\Bucket.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAswBwAAAANAAAAAAAAAA==",
+              "Title": "Rainbarrel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3B_Emmer\\Models\\Rainbarrel.cs",
+              "RelativeDocumentMoniker": "..\\Week3B_Emmer\\Models\\Rainbarrel.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3B_Emmer\\Models\\Rainbarrel.cs",
+              "RelativeToolTip": "..\\Week3B_Emmer\\Models\\Rainbarrel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T11:41:37.827Z",
+              "WhenOpened": "2024-09-25T17:46:53.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Rainbarrel.cs",
-              "DocumentMoniker": "D:\\Huiswerk\\Week3B_Emmer\\Models\\Rainbarrel.cs",
-              "RelativeDocumentMoniker": "..\\Week3B_Emmer\\Models\\Rainbarrel.cs",
-              "ToolTip": "D:\\Huiswerk\\Week3B_Emmer\\Models\\Rainbarrel.cs",
-              "RelativeToolTip": "..\\Week3B_Emmer\\Models\\Rainbarrel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAcwBwAAAANAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Oilbarrel.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Week3B_Emmer\\Models\\Oilbarrel.cs",
+              "RelativeDocumentMoniker": "..\\Week3B_Emmer\\Models\\Oilbarrel.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Week3B_Emmer\\Models\\Oilbarrel.cs",
+              "RelativeToolTip": "..\\Week3B_Emmer\\Models\\Oilbarrel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T11:53:52.602Z",
+              "WhenOpened": "2024-09-25T17:46:54.13Z",
               "EditorCaption": ""
             }
           ]
