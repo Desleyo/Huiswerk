@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Week2B_Sportzalen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e09847e7837415d4f8a191ebaefa1e099831441")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24243af5125daeefbee3423e851e7ce33917aa9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Week2B_Sportzalen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Week2B_Sportzalen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
