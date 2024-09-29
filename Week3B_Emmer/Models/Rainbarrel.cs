@@ -1,5 +1,4 @@
-﻿using Week3A_Emmer;
-using Week3B_Emmer.Enums;
+﻿using Week3B_Emmer.Enums;
 using Week3B_Emmer.Exceptions;
 
 namespace Week3B_Emmer.Models

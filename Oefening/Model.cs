@@ -4,7 +4,7 @@
 
     public class Model
     {
-        public event Observer? observer;
+        public event Observer? Observer;
 
         private int getal;
 
@@ -18,13 +18,13 @@
             {
                 var oudGetal = getal;
                 getal = value;
-                observer?.Invoke(this, new ModelChangedEventArgs { OudGetal = oudGetal, NieuwGetal = getal});
+                Observer?.Invoke(this, new ModelChangedEventArgs { OudGetal = oudGetal, NieuwGetal = getal});
             }
         }
 
         public void AddObserver(Observer observer)
         {
-            this.observer += observer;
+            this.Observer += observer;
         }
     }
 }

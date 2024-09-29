@@ -1,5 +1,4 @@
-﻿using Week3A_Emmer;
-using Week3B_Emmer.Exceptions;
+﻿using Week3B_Emmer.Exceptions;
 
 namespace Week3B_Emmer.Models
 {
@@ -34,11 +33,8 @@ namespace Week3B_Emmer.Models
 
         public void CombineBuckets(Bucket bucket)
         {
-            if (Content + bucket.Content <= Capacity)
-            {
-                Fill(bucket.Content);
-                bucket.Empty();
-            }
+            Fill(bucket.Content);
+            bucket.Empty();
         }
     }
 }

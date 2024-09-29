@@ -1,6 +1,4 @@
-﻿using Week3A_Emmer;
-
-namespace Week3B_Emmer.Models
+﻿namespace Week3B_Emmer.Models
 {
     public class Oilbarrel : LiquidContainer
     {

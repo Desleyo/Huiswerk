@@ -9,15 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2B_Sportzalen", "..\Wee
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2B_Activiteit", "..\Week2B_Activiteit\Week2B_Activiteit.csproj", "{5AE29E4A-1850-4532-97CC-E432318D2972}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3A_Emmer", "..\Week3A_Emmer\Week3A_Emmer.csproj", "{C455303E-BFA7-4096-A355-6221422CD260}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3A_Appels_en_Peren", "..\Week3A_Appels_en_Peren\Week3A_Appels_en_Peren.csproj", "{73E7FC45-EE6E-4ADC-AE99-6EF9DFCD597A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3B_Emmer", "..\Week3B_Emmer\Week3B_Emmer.csproj", "{D51EB476-5483-4802-B6DF-BAA7887C0A39}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week3B_Emmer_UnitTests", "..\Week3B_Emmer_UnitTests\Week3B_Emmer_UnitTests.csproj", "{AD165CAE-3EB7-4515-AD77-C1F578060CAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oefening_Events", "..\Oefening\Oefening_Events.csproj", "{48DCFCEF-FA39-4954-9FD0-BB1164C50D0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oefening_Events", "..\Oefening\Oefening_Events.csproj", "{48DCFCEF-FA39-4954-9FD0-BB1164C50D0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +35,6 @@ Global
 		{5AE29E4A-1850-4532-97CC-E432318D2972}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AE29E4A-1850-4532-97CC-E432318D2972}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AE29E4A-1850-4532-97CC-E432318D2972}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C455303E-BFA7-4096-A355-6221422CD260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C455303E-BFA7-4096-A355-6221422CD260}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C455303E-BFA7-4096-A355-6221422CD260}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C455303E-BFA7-4096-A355-6221422CD260}.Release|Any CPU.Build.0 = Release|Any CPU
 		{73E7FC45-EE6E-4ADC-AE99-6EF9DFCD597A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{73E7FC45-EE6E-4ADC-AE99-6EF9DFCD597A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73E7FC45-EE6E-4ADC-AE99-6EF9DFCD597A}.Release|Any CPU.ActiveCfg = Release|Any CPU
