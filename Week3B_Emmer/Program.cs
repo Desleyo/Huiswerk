@@ -96,11 +96,11 @@ namespace Week3B_Emmer
         {
             if(args is OverflowedEventArgs overflowArgs)
             {
-                Console.WriteLine($"Object of type {sender.GetType()} is overflowing with an amount of {overflowArgs.Amount}!");
+                Console.WriteLine($"Object of type {sender.GetType().Name} is overflowing with an amount of {overflowArgs.Amount}!");
             }
             else
             {
-                Console.WriteLine($"Object of type {sender.GetType()} is full!");
+                Console.WriteLine($"Object of type {sender.GetType().Name} is full!");
             }
         }
     }
