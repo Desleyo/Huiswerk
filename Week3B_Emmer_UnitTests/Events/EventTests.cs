@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestPlatform.ObjectModel;
 using Week3B_Emmer.Enums;
+using Week3B_Emmer.EventArguments;
 using Week3B_Emmer.Models;
 
 namespace Week3B_Emmer_UnitTests.Events
@@ -85,6 +86,28 @@ namespace Week3B_Emmer_UnitTests.Events
 
             //Assert
             Assert.IsFalse(wasFired);
+        }
+
+        [TestCase(15, 20)]
+        [TestCase(50, 60)]
+        [TestCase(100, 200)]
+        [Test]
+        public void Event_CheckOverflowAmount_OverflowAmountShouldBeReceived(int capacity, int content)
+        {
+            //Arrange
+            Bucket bucket = new Bucket(capacity);
+
+            //Act
+            OverflowedEventArgs? overflowArgs = null;
+            bucket.OverflowedObserver += (sender, args) =>
+            {
+                overflowArgs = (OverflowedEventArgs)args;
+            };
+
+            bucket.Fill(content);
+
+            //Assert
+            Assert.AreEqual(overflowArgs.Amount, content - capacity);
         }
     }
 }

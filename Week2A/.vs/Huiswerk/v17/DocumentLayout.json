@@ -6,13 +6,10 @@
       "AbsoluteMoniker": "D:0:0:{AD165CAE-3EB7-4515-AD77-C1F578060CAC}|..\\Week3B_Emmer_UnitTests\\Week3B_Emmer_UnitTests.csproj|d:\\huiswerk\\week3b_emmer_unittests\\events\\eventtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\huiswerk\\week3b_emmer\\abstract classes\\liquidcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\huiswerk\\week3b_emmer\\eventarguments\\overflowedeventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\huiswerk\\week3b_emmer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D51EB476-5483-4802-B6DF-BAA7887C0A39}|..\\Week3B_Emmer\\Week3B_Emmer.csproj|d:\\huiswerk\\week3b_emmer\\abstract classes\\liquidcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,48 +33,35 @@
               "RelativeDocumentMoniker": "..\\Week3B_Emmer_UnitTests\\Events\\EventTests.cs",
               "ToolTip": "D:\\Huiswerk\\Week3B_Emmer_UnitTests\\Events\\EventTests.cs",
               "RelativeToolTip": "..\\Week3B_Emmer_UnitTests\\Events\\EventTests.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAswCkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAuwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:14:22.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Huiswerk\\Week3B_Emmer\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Week3B_Emmer\\Program.cs",
-              "ToolTip": "D:\\Huiswerk\\Week3B_Emmer\\Program.cs",
-              "RelativeToolTip": "..\\Week3B_Emmer\\Program.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAswGcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T11:00:34.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LiquidContainer.cs",
-              "DocumentMoniker": "D:\\Huiswerk\\Week3B_Emmer\\Abstract classes\\LiquidContainer.cs",
-              "RelativeDocumentMoniker": "..\\Week3B_Emmer\\Abstract classes\\LiquidContainer.cs",
-              "ToolTip": "D:\\Huiswerk\\Week3B_Emmer\\Abstract classes\\LiquidContainer.cs",
-              "RelativeToolTip": "..\\Week3B_Emmer\\Abstract classes\\LiquidContainer.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAA0wEQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T11:22:03.917Z",
+              "WhenOpened": "2024-10-03T08:31:45.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "LiquidContainer.cs",
+              "DocumentMoniker": "D:\\Huiswerk\\Week3B_Emmer\\Abstract classes\\LiquidContainer.cs",
+              "RelativeDocumentMoniker": "..\\Week3B_Emmer\\Abstract classes\\LiquidContainer.cs",
+              "ToolTip": "D:\\Huiswerk\\Week3B_Emmer\\Abstract classes\\LiquidContainer.cs",
+              "RelativeToolTip": "..\\Week3B_Emmer\\Abstract classes\\LiquidContainer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T08:31:40.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "OverflowedEventArgs.cs",
               "DocumentMoniker": "D:\\Huiswerk\\Week3B_Emmer\\EventArguments\\OverflowedEventArgs.cs",
               "RelativeDocumentMoniker": "..\\Week3B_Emmer\\EventArguments\\OverflowedEventArgs.cs",
               "ToolTip": "D:\\Huiswerk\\Week3B_Emmer\\EventArguments\\OverflowedEventArgs.cs",
               "RelativeToolTip": "..\\Week3B_Emmer\\EventArguments\\OverflowedEventArgs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T11:50:46.237Z",
+              "WhenOpened": "2024-10-03T08:31:39.137Z",
               "EditorCaption": ""
             }
           ]
