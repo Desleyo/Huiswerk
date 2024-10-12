@@ -1,4 +1,5 @@
 ﻿using Memory_Business;
+using Memory_DataAccess;
 
 namespace Memory_ConsoleApp
 {
@@ -13,6 +14,11 @@ namespace Memory_ConsoleApp
         {
             game = new MemoryGame();
 
+            //Used for data access
+            MemoryRepository repository = new MemoryRepository();
+            MemoryService service = new MemoryService(repository);
+
+            //Main flow of the game
             while (!game.GameEnded)
             {
                 PrintCards();
@@ -41,8 +47,35 @@ namespace Memory_ConsoleApp
                 Console.Clear();
             }
 
+            int currentScore = game.CalculateScore();
+
             Console.WriteLine("Congratulations you have won the game of memory!");
-            Console.WriteLine($"Your score is: {game.CalculateScore()}");
+            Console.WriteLine($"Your score is: {currentScore}\n");
+
+            //Check and potentially save new highscore
+            if (service.CheckIfNewHighscore(currentScore))
+            {
+                Console.WriteLine("You have achieved a new highscore!");
+
+                string name = "";
+                while(string.IsNullOrWhiteSpace(name) || name.Length < 3)
+                {
+                    Console.WriteLine("Please submit your name for your new highscore");
+
+                    name = Console.ReadLine();
+                }
+
+                Highscore highscore = new Highscore() { Name = name, Score = currentScore, AmountOfCards = game.CardsOnTable.Length };
+                service.InsertNewHighscore(highscore);
+                Console.Clear();
+            }
+
+            //Display top highscores
+            Console.WriteLine($"These are the current top {service.GetHighscores().Count} highscores:");
+            foreach(Highscore highscore in service.GetHighscores())
+            {
+                Console.WriteLine(highscore.ToString() + " (cards)");
+            }
         }
 
         //Prints all the cards upside down, except for the current guesses
@@ -63,7 +96,9 @@ namespace Memory_ConsoleApp
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.Write(" X ");
+                    Console.ResetColor();
                 }
             }
 

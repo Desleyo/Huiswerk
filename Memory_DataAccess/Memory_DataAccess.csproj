@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Memory_Business\Memory_Business.csproj" />
-    <ProjectReference Include="..\Memory_DataAccess\Memory_DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

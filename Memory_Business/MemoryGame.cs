@@ -58,7 +58,7 @@ namespace Memory_Business
 
         public int CalculateScore()
         {
-            int amountOfCards = foundPairs.Count;
+            int amountOfCards = CardsOnTable.Length;
             TimeSpan timeSpan = DateTime.UtcNow - Process.GetCurrentProcess().StartTime.ToUniversalTime();
             int timeElapsed = (int)Math.Round(timeSpan.TotalSeconds);
 
