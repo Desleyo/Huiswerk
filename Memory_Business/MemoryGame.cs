@@ -11,10 +11,10 @@ namespace Memory_Business
         private readonly List<char> cards = new List<char>() { '!', '@', '#', '$', '%', '^', '&', '*', '(', ')' };
 
         //The array that represents the current game
-        public char[] CardsOnTable { get; private set; }
+        public char[]? CardsOnTable { get; private set; }
 
         //The pairs that have already been found
-        public List<char> foundPairs { get; private set; }
+        public List<char> foundPairs { get; private set; } = new List<char>();
 
         private int amountOfTries = 0;
 
@@ -27,9 +27,6 @@ namespace Memory_Business
         {
             //Make sure the amount of pairs is within min and max;
             pairs = pairs < minPairs ? minPairs : pairs > maxPairs ? maxPairs : pairs;
-
-            CardsOnTable = new char[pairs * 2];
-            foundPairs = new List<char>();
 
             RandomizeCards(pairs);
 
@@ -47,6 +44,8 @@ namespace Memory_Business
                 cardsToShuffle.Add(cards[i]);
                 cardsToShuffle.Add(cards[i]);
             }
+
+            CardsOnTable = new char[pairs * 2];
 
             //Shuffle the cards into the CardsOnTable list
             for (int i = 0; i < CardsOnTable.Length; i++)

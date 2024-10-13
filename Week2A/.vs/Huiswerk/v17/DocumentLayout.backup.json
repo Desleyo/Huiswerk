@@ -3,22 +3,10 @@
   "WorkspaceRootPath": "D:\\GitHub\\Huiswerk\\Week2A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D30CE65-7FC7-484A-A607-BF5FD4F498CE}|..\\Memory_WpfApp\\Memory_WpfApp.csproj|d:\\github\\huiswerk\\memory_wpfapp\\highscorepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7359A828-3326-4E20-9477-41BC2AB5E45A}|..\\Memory_Tests\\Memory_Tests.csproj|d:\\github\\huiswerk\\memory_tests\\businesstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D30CE65-7FC7-484A-A607-BF5FD4F498CE}|..\\Memory_WpfApp\\Memory_WpfApp.csproj|d:\\github\\huiswerk\\memory_wpfapp\\highscorepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{994ACC2F-7144-4394-B885-CE0153B73485}|..\\Memory_DataAccess\\Memory_DataAccess.csproj|d:\\github\\huiswerk\\memory_dataaccess\\highscoresdata.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65776735-FE2D-4683-9164-F1A97B3B8980}|..\\Memory_ConsoleApp\\Memory_ConsoleApp.csproj|d:\\github\\huiswerk\\memory_consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D30CE65-7FC7-484A-A607-BF5FD4F498CE}|..\\Memory_WpfApp\\Memory_WpfApp.csproj|d:\\github\\huiswerk\\memory_wpfapp\\gamepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D30CE65-7FC7-484A-A607-BF5FD4F498CE}|..\\Memory_WpfApp\\Memory_WpfApp.csproj|d:\\github\\huiswerk\\memory_wpfapp\\gamepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40C27F00-5246-457C-BF73-B57BCCDEC43D}|..\\Memory_Business\\Memory_Business.csproj|d:\\github\\huiswerk\\memory_business\\memorygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,77 +25,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HighscorePage.xaml",
-              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Memory_WpfApp\\HighscorePage.xaml",
-              "RelativeDocumentMoniker": "..\\Memory_WpfApp\\HighscorePage.xaml",
-              "ToolTip": "D:\\GitHub\\Huiswerk\\Memory_WpfApp\\HighscorePage.xaml",
-              "RelativeToolTip": "..\\Memory_WpfApp\\HighscorePage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-13T19:15:03.391Z",
+              "Title": "MemoryGame.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Memory_Business\\MemoryGame.cs",
+              "RelativeDocumentMoniker": "..\\Memory_Business\\MemoryGame.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Memory_Business\\MemoryGame.cs",
+              "RelativeToolTip": "..\\Memory_Business\\MemoryGame.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwC8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:11:15.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HighscorePage.xaml.cs",
-              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Memory_WpfApp\\HighscorePage.xaml.cs",
-              "RelativeDocumentMoniker": "..\\Memory_WpfApp\\HighscorePage.xaml.cs",
-              "ToolTip": "D:\\GitHub\\Huiswerk\\Memory_WpfApp\\HighscorePage.xaml.cs",
-              "RelativeToolTip": "..\\Memory_WpfApp\\HighscorePage.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA7wBwAAAANAAAAAAAAAA==",
+              "Title": "BusinessTests.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Memory_Tests\\BusinessTests.cs",
+              "RelativeDocumentMoniker": "..\\Memory_Tests\\BusinessTests.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Memory_Tests\\BusinessTests.cs",
+              "RelativeToolTip": "..\\Memory_Tests\\BusinessTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:15:09.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GamePage.xaml",
-              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Memory_WpfApp\\GamePage.xaml",
-              "RelativeDocumentMoniker": "..\\Memory_WpfApp\\GamePage.xaml",
-              "ToolTip": "D:\\GitHub\\Huiswerk\\Memory_WpfApp\\GamePage.xaml",
-              "RelativeToolTip": "..\\Memory_WpfApp\\GamePage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-13T15:51:19.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GamePage.xaml.cs",
-              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Memory_WpfApp\\GamePage.xaml.cs",
-              "RelativeDocumentMoniker": "..\\Memory_WpfApp\\GamePage.xaml.cs",
-              "ToolTip": "D:\\GitHub\\Huiswerk\\Memory_WpfApp\\GamePage.xaml.cs",
-              "RelativeToolTip": "..\\Memory_WpfApp\\GamePage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T15:49:53.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Memory_ConsoleApp\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Memory_ConsoleApp\\Program.cs",
-              "ToolTip": "D:\\GitHub\\Huiswerk\\Memory_ConsoleApp\\Program.cs",
-              "RelativeToolTip": "..\\Memory_ConsoleApp\\Program.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAgwFgAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:31:13.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HighscoresData.txt",
-              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Memory_DataAccess\\HighscoresData.txt",
-              "RelativeDocumentMoniker": "..\\Memory_DataAccess\\HighscoresData.txt",
-              "ToolTip": "D:\\GitHub\\Huiswerk\\Memory_DataAccess\\HighscoresData.txt",
-              "RelativeToolTip": "..\\Memory_DataAccess\\HighscoresData.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-10-13T20:30:26.374Z",
+              "WhenOpened": "2024-10-13T21:09:02.22Z",
               "EditorCaption": ""
             }
           ]
