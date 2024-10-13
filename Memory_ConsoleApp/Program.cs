@@ -1,5 +1,6 @@
 ﻿using Memory_Business;
 using Memory_DataAccess;
+using System.Text.RegularExpressions;
 
 namespace Memory_ConsoleApp
 {
@@ -12,12 +13,13 @@ namespace Memory_ConsoleApp
 
         static void Main(string[] args)
         {
-            game = new MemoryGame();
+            game = new MemoryGame(5);
 
-            //Used for data access
-            MemoryRepository repository = new MemoryRepository();
-            MemoryService service = new MemoryService(repository);
+            PlayGame();
+        }
 
+        private static void PlayGame()
+        {
             //Main flow of the game
             while (!game.GameEnded)
             {
@@ -31,7 +33,10 @@ namespace Memory_ConsoleApp
                     Console.WriteLine("What is your second guess?");
                     currentGuess2 = int.Parse(Console.ReadLine());
 
-                    game.MakeGuess(currentGuess1, currentGuess2);
+                    if (currentGuess1 != currentGuess2)
+                    {
+                        game.MakeGuess(currentGuess1, currentGuess2);
+                    }
                 }
                 catch (FormatException)
                 {
@@ -47,6 +52,14 @@ namespace Memory_ConsoleApp
                 Console.Clear();
             }
 
+            DisplayHighscores();
+        }
+
+        private static void DisplayHighscores()
+        {
+            //Used for data access
+            MemoryService service = new MemoryService(new MemoryRepository());
+
             int currentScore = game.CalculateScore();
 
             Console.WriteLine("Congratulations you have won the game of memory!");
@@ -58,11 +71,11 @@ namespace Memory_ConsoleApp
                 Console.WriteLine("You have achieved a new highscore!");
 
                 string name = "";
-                while(string.IsNullOrWhiteSpace(name) || name.Length < 3)
+                while (string.IsNullOrWhiteSpace(name) || name.Length < 3)
                 {
                     Console.WriteLine("Please submit your name for your new highscore");
 
-                    name = Console.ReadLine();
+                    name = Regex.Replace(Console.ReadLine(), @"\s+", "");
                 }
 
                 Highscore highscore = new Highscore() { Name = name, Score = currentScore, AmountOfCards = game.CardsOnTable.Length };
@@ -71,8 +84,9 @@ namespace Memory_ConsoleApp
             }
 
             //Display top highscores
-            Console.WriteLine($"These are the current top {service.GetHighscores().Count} highscores:");
-            foreach(Highscore highscore in service.GetHighscores())
+            ICollection<Highscore> highscores = service.GetHighscores();
+            Console.WriteLine($"These are the current top {highscores.Count} highscores:");
+            foreach (Highscore highscore in highscores)
             {
                 Console.WriteLine(highscore.ToString() + " (cards)");
             }
@@ -83,14 +97,14 @@ namespace Memory_ConsoleApp
         {
             Console.WriteLine("\n[0][1][2][3][4]");
 
-            for(int i = 0; i < game?.CardsOnTable.Length; i++)
+            for (int i = 0; i < game?.CardsOnTable.Length; i++)
             {
-                if(i == game?.CardsOnTable.Length / 2)
+                if (i == game?.CardsOnTable.Length / 2)
                 {
                     Console.WriteLine();
                 }
 
-                if(i == guess1 ||  i == guess2 || game.foundPairs.Contains(game.CardsOnTable[i]))
+                if (i == guess1 || i == guess2 || game.foundPairs.Contains(game.CardsOnTable[i]))
                 {
                     Console.Write($" {game?.CardsOnTable[i]} ");
                 }

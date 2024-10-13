@@ -25,6 +25,12 @@
 
         public void InsertNewHighscore(Highscore highscore)
         {
+            //Make sure the names aren't too long
+            if(highscore.Name.Length > 15)
+            {
+                highscore.Name = highscore.Name.Substring(0, 15);
+            }
+
             repository.Insert(highscore);
         }
     }

@@ -26,3 +26,4 @@ D:\GitHub\Huiswerk\Week2A\obj\Debug\net8.0\refint\Week2A.dll
 D:\GitHub\Huiswerk\Week2A\obj\Debug\net8.0\Week2A.pdb
 D:\GitHub\Huiswerk\Week2A\obj\Debug\net8.0\Week2A.genruntimeconfig.cache
 D:\GitHub\Huiswerk\Week2A\obj\Debug\net8.0\ref\Week2A.dll
+D:\GitHub\Huiswerk\Week2A\obj\Debug\net8.0\Week2A.sourcelink.json

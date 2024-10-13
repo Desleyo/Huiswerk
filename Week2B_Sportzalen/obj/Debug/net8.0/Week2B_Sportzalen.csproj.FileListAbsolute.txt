@@ -26,3 +26,4 @@ D:\GitHub\Huiswerk\Week2B_Sportzalen\obj\Debug\net8.0\refint\Week2B_Sportzalen.d
 D:\GitHub\Huiswerk\Week2B_Sportzalen\obj\Debug\net8.0\Week2B_Sportzalen.pdb
 D:\GitHub\Huiswerk\Week2B_Sportzalen\obj\Debug\net8.0\Week2B_Sportzalen.genruntimeconfig.cache
 D:\GitHub\Huiswerk\Week2B_Sportzalen\obj\Debug\net8.0\ref\Week2B_Sportzalen.dll
+D:\GitHub\Huiswerk\Week2B_Sportzalen\obj\Debug\net8.0\Week2B_Sportzalen.sourcelink.json

@@ -4,8 +4,11 @@ namespace Memory_Business
 {
     public class MemoryGame
     {
+        public static readonly int minPairs = 2;
+        public static readonly int maxPairs = 10;
+
         //The cards that will be used in play
-        private readonly List<char> cards = new List<char>() { '!', '!', '@', '@', '#', '#', '$', '$', '%', '%' };
+        private readonly List<char> cards = new List<char>() { '!', '@', '#', '$', '%', '^', '&', '*', '(', ')' };
 
         //The array that represents the current game
         public char[] CardsOnTable { get; private set; }
@@ -17,28 +20,46 @@ namespace Memory_Business
 
         public bool GameEnded { get; private set; } = false;
 
-        public MemoryGame()
+        private DateTime startOfGame;
+        private DateTime endOfGame;
+
+        public MemoryGame(int pairs)
         {
-            CardsOnTable = new char[cards.Count];
+            //Make sure the amount of pairs is within min and max;
+            pairs = pairs < minPairs ? minPairs : pairs > maxPairs ? maxPairs : pairs;
+
+            CardsOnTable = new char[pairs * 2];
             foundPairs = new List<char>();
 
-            RandomizeCards();
+            RandomizeCards(pairs);
+
+            startOfGame = DateTime.Now;
         }
 
         //Randomize the positions of the cards in play
-        public void RandomizeCards()
+        public void RandomizeCards(int pairs)
         {
+            //Extract the cards that are needed from the cards list, instead of using every possible card
+            List<char> cardsToShuffle = new List<char>();
+            for (int i = 0; i < pairs; i++)
+            {
+                //Add the cards twice since we need 2 to make a pair
+                cardsToShuffle.Add(cards[i]);
+                cardsToShuffle.Add(cards[i]);
+            }
+
+            //Shuffle the cards into the CardsOnTable list
             for (int i = 0; i < CardsOnTable.Length; i++)
             {
-                int randomCardPos = Random.Shared.Next(0, cards.Count); 
-                CardsOnTable[i] = cards[randomCardPos];
-                cards.RemoveAt(randomCardPos);
+                int randomCardPos = Random.Shared.Next(0, cardsToShuffle.Count);
+                CardsOnTable[i] = cardsToShuffle[randomCardPos];
+                cardsToShuffle.RemoveAt(randomCardPos);
             }
         }
 
         public void MakeGuess(int guess1, int guess2)
-        { 
-            if(guess1 >= CardsOnTable.Length || guess2 >= CardsOnTable.Length)
+        {
+            if (guess1 >= CardsOnTable.Length || guess2 >= CardsOnTable.Length)
             {
                 return;
             }
@@ -47,9 +68,10 @@ namespace Memory_Business
             {
                 foundPairs.Add(CardsOnTable[guess1]);
 
-                if(foundPairs.Count == CardsOnTable.Length / 2)
+                if (foundPairs.Count == CardsOnTable.Length / 2)
                 {
                     GameEnded = true;
+                    endOfGame = DateTime.Now;
                 }
             }
 
@@ -59,7 +81,7 @@ namespace Memory_Business
         public int CalculateScore()
         {
             int amountOfCards = CardsOnTable.Length;
-            TimeSpan timeSpan = DateTime.UtcNow - Process.GetCurrentProcess().StartTime.ToUniversalTime();
+            TimeSpan timeSpan = endOfGame - startOfGame;
             int timeElapsed = (int)Math.Round(timeSpan.TotalSeconds);
 
             return (int)Math.Round(((Math.Pow(amountOfCards, 2)) / (timeElapsed * amountOfTries)) * 1000);
