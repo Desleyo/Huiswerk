@@ -11,4 +11,10 @@
     <ProjectReference Include="..\Memory_Business\Memory_Business.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="HighscoresData.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

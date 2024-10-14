@@ -4,7 +4,7 @@ namespace Memory_DataAccess
 {
     public class MemoryRepository : IRepository
     {
-        private const string HIGHSCORES_DATA_PATH = "D:\\GitHub\\Huiswerk\\Memory_DataAccess\\HighscoresData.txt";
+        private const string HIGHSCORES_DATA_PATH = @"Memory_DataAccess\HighscoresData.txt";
         private const int MAX_HIGHSCORES = 10;
 
         private ICollection<Highscore> highscores;
@@ -13,12 +13,46 @@ namespace Memory_DataAccess
         {
             highscores = new List<Highscore>();
 
-            foreach (string line in File.ReadLines(HIGHSCORES_DATA_PATH))
+            foreach (string line in File.ReadLines(GetPathToDatabase()))
             {
+                if (string.IsNullOrWhiteSpace(line))
+                {
+                    continue;
+                }
+
                 string[] segments = line.Split(' ');
 
                 highscores.Add(new Highscore() { Name = segments[0], Score = int.Parse(segments[1]), AmountOfCards = int.Parse(segments[2]) });
             }
+        }
+
+        //Uses the current directory to find the solution,
+        //which is then used to find the database in the project
+        private string GetPathToDatabase()
+        {
+            string currentDirectory = Directory.GetCurrentDirectory();
+            List<string> directories = new List<string>(currentDirectory.Split('\\'));
+
+            bool foundPath = false;
+            while (!foundPath)
+            {
+                if (directories.Last().Contains("Memory"))
+                {
+                    foundPath = true;
+                }
+
+                directories.Remove(directories.Last());
+            }
+
+            string solutionPath = "";
+            foreach (string directory in directories)
+            {
+                solutionPath += directory + @"\";
+            }
+
+            solutionPath += HIGHSCORES_DATA_PATH;
+
+            return solutionPath;
         }
 
         public ICollection<Highscore> GetAll()
@@ -75,7 +109,7 @@ namespace Memory_DataAccess
                 lines[i] = tempScores[i].ToString();
             }
 
-            File.WriteAllLines(HIGHSCORES_DATA_PATH, lines);
+            File.WriteAllLines(GetPathToDatabase(), lines);
         }
     }
 }
