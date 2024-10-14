@@ -13,7 +13,7 @@ namespace Memory_ConsoleApp
 
         static void Main(string[] args)
         {
-            game = new MemoryGame(5);
+            game = new MemoryGame();
 
             PlayGame();
         }

@@ -27,6 +27,7 @@ namespace Memory_WpfApp
             InitializeComponent();
 
             this.game = game;
+
             cardButtons = new List<CardButton>();
 
             AddCardsToGrid();

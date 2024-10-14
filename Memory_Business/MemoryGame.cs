@@ -1,11 +1,23 @@
-﻿using System.Diagnostics;
-
-namespace Memory_Business
+﻿namespace Memory_Business
 {
     public class MemoryGame
     {
         public static readonly int minPairs = 2;
         public static readonly int maxPairs = 10;
+        public static readonly int defaultPairs = 5;
+
+        public string MinMaxPairsInfo { get; private set; } = $"Pairs (min: {minPairs}, max: {maxPairs})";
+
+        private int pairs;
+        public int Pairs
+        {
+            get => pairs;
+            set
+            {
+                //Make sure the amount of pairs is within min and max;
+                pairs = value < minPairs ? minPairs : value > maxPairs ? maxPairs : value;
+            }
+        }
 
         //The cards that will be used in play
         private readonly List<char> cards = new List<char>() { '!', '@', '#', '$', '%', '^', '&', '*', '(', ')' };
@@ -23,10 +35,14 @@ namespace Memory_Business
         private DateTime startOfGame;
         private DateTime endOfGame;
 
-        public MemoryGame(int pairs)
+        public MemoryGame() : this(defaultPairs)
         {
-            //Make sure the amount of pairs is within min and max;
-            pairs = pairs < minPairs ? minPairs : pairs > maxPairs ? maxPairs : pairs;
+            
+        }
+
+        public MemoryGame(int pairsAmount)
+        {
+            Pairs = pairsAmount;
 
             RandomizeCards(pairs);
 
