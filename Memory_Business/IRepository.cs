@@ -3,6 +3,6 @@
     public interface IRepository
     {
         ICollection<Highscore> GetAll();
-        void Insert(Highscore highscore);
+        void Insert(List<Highscore> tempScores);
     }
 }

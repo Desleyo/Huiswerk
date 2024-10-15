@@ -34,5 +34,10 @@ namespace Memory_WpfApp
             Main.Content = new GamePage(new MemoryGame(pairs));
             Main.Visibility = Visibility.Visible;
         }
+
+        private void PairsTextBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+
+        }
     }
 }
