@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqDingen", "..\HatanDenNa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memory_DataAccess", "..\Memory_DataAccess\Memory_DataAccess.csproj", "{994ACC2F-7144-4394-B885-CE0153B73485}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memory_WpfApp", "..\Memory_WpfApp\Memory_WpfApp.csproj", "{3D30CE65-7FC7-484A-A607-BF5FD4F498CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memory_WpfApp", "..\Memory_WpfApp\Memory_WpfApp.csproj", "{3D30CE65-7FC7-484A-A607-BF5FD4F498CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memory_Tests", "..\Memory_Tests\Memory_Tests.csproj", "{7359A828-3326-4E20-9477-41BC2AB5E45A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Memory_Tests", "..\Memory_Tests\Memory_Tests.csproj", "{7359A828-3326-4E20-9477-41BC2AB5E45A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Emballage-inname", "..\Toets_CS_P4_2324\Emballage-inname\Emballage-inname.csproj", "{63E88258-4C0B-4849-AC48-14BB58F650A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,10 @@ Global
 		{7359A828-3326-4E20-9477-41BC2AB5E45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7359A828-3326-4E20-9477-41BC2AB5E45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7359A828-3326-4E20-9477-41BC2AB5E45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E88258-4C0B-4849-AC48-14BB58F650A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E88258-4C0B-4849-AC48-14BB58F650A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E88258-4C0B-4849-AC48-14BB58F650A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E88258-4C0B-4849-AC48-14BB58F650A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

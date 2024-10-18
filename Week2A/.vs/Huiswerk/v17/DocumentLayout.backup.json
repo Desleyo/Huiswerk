@@ -1,7 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Huiswerk\\Week2A\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\GitHub\\Huiswerk\\Week2A\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63E88258-4C0B-4849-AC48-14BB58F650A0}|..\\Toets_CS_P4_2324\\Emballage-inname\\Emballage-inname.csproj|d:\\github\\huiswerk\\toets_cs_p4_2324\\emballage-inname\\models\\opslagruimte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63E88258-4C0B-4849-AC48-14BB58F650A0}|..\\Toets_CS_P4_2324\\Emballage-inname\\Emballage-inname.csproj|d:\\github\\huiswerk\\toets_cs_p4_2324\\emballage-inname\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +16,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Toets_CS_P4_2324\\Emballage-inname\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Toets_CS_P4_2324\\Emballage-inname\\Program.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Toets_CS_P4_2324\\Emballage-inname\\Program.cs",
+              "RelativeToolTip": "..\\Toets_CS_P4_2324\\Emballage-inname\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAG8AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T18:54:33.426Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Opslagruimte.cs",
+              "DocumentMoniker": "D:\\GitHub\\Huiswerk\\Toets_CS_P4_2324\\Emballage-inname\\Models\\Opslagruimte.cs",
+              "RelativeDocumentMoniker": "..\\Toets_CS_P4_2324\\Emballage-inname\\Models\\Opslagruimte.cs",
+              "ToolTip": "D:\\GitHub\\Huiswerk\\Toets_CS_P4_2324\\Emballage-inname\\Models\\Opslagruimte.cs",
+              "RelativeToolTip": "..\\Toets_CS_P4_2324\\Emballage-inname\\Models\\Opslagruimte.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T13:39:07.977Z",
+              "EditorCaption": ""
             }
           ]
         }
